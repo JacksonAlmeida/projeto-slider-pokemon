@@ -1,0 +1,32 @@
+@media (max-width: 620px){
+    main {
+        padding: 0 15;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main ul li {
+        height: 480px;
+    }
+
+    main ul li .container-img {
+        max-width: 230px;
+    }
+
+    main ul li .information h2 {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    main ul li .information p {
+        font-size: 14px;
+    }
+}
